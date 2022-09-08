@@ -1765,10 +1765,6 @@ version = "*"
 name = "xorg-x11-xinit-session"
 version = "*"
 
-[[packages]]
-name = "htop"
-version = "*"
-
 [customizations]
 
 [[customizations.user]]
