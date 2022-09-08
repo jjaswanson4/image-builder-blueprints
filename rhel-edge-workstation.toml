@@ -1,0 +1,1778 @@
+name = "rhel-edge-workstation"
+description = ""
+version = "0.0.1"
+modules = []
+groups = []
+distro = ""
+
+[[packages]]
+name = "sssd"
+version = "*"
+
+[[packages]]
+name = "vim-enhanced"
+version = "*"
+
+[[packages]]
+name = "ansible-core"
+version = "*"
+
+[[packages]]
+name = "NetworkManager-bluetooth"
+version = "*"
+
+[[packages]]
+name = "NetworkManager-wifi"
+version = "*"
+
+[[packages]]
+name = "NetworkManager-wwan"
+version = "*"
+
+[[packages]]
+name = "dnsmasq"
+version = "*"
+
+[[packages]]
+name = "iptables-nft"
+version = "*"
+
+[[packages]]
+name = "buildah"
+version = "*"
+
+[[packages]]
+name = "containernetworking-plugins"
+version = "*"
+
+[[packages]]
+name = "python3-psutil"
+version = "*"
+
+[[packages]]
+name = "toolbox"
+version = "*"
+
+[[packages]]
+name = "audit"
+version = "*"
+
+[[packages]]
+name = "cronie"
+version = "*"
+
+[[packages]]
+name = "crypto-policies"
+version = "*"
+
+[[packages]]
+name = "crypto-policies-scripts"
+version = "*"
+
+[[packages]]
+name = "curl"
+version = "*"
+
+[[packages]]
+name = "e2fsprogs"
+version = "*"
+
+[[packages]]
+name = "filesystem"
+version = "*"
+
+[[packages]]
+name = "firewalld"
+version = "*"
+
+[[packages]]
+name = "iproute"
+version = "*"
+
+[[packages]]
+name = "iproute-tc"
+version = "*"
+
+[[packages]]
+name = "iputils"
+version = "*"
+
+[[packages]]
+name = "kbd"
+version = "*"
+
+[[packages]]
+name = "less"
+version = "*"
+
+[[packages]]
+name = "logrotate"
+version = "*"
+
+[[packages]]
+name = "man-db"
+version = "*"
+
+[[packages]]
+name = "ncurses"
+version = "*"
+
+[[packages]]
+name = "openssh-clients"
+version = "*"
+
+[[packages]]
+name = "p11-kit"
+version = "*"
+
+[[packages]]
+name = "parted"
+version = "*"
+
+[[packages]]
+name = "passwd"
+version = "*"
+
+[[packages]]
+name = "policycoreutils"
+version = "*"
+
+[[packages]]
+name = "procps-ng"
+version = "*"
+
+[[packages]]
+name = "rootfiles"
+version = "*"
+
+[[packages]]
+name = "rpm-plugin-audit"
+version = "*"
+
+[[packages]]
+name = "rsyslog"
+version = "*"
+
+[[packages]]
+name = "selinux-policy-targeted"
+version = "*"
+
+[[packages]]
+name = "setup"
+version = "*"
+
+[[packages]]
+name = "shadow-utils"
+version = "*"
+
+[[packages]]
+name = "vim-minimal"
+version = "*"
+
+[[packages]]
+name = "xfsprogs"
+version = "*"
+
+[[packages]]
+name = "NetworkManager-tui"
+version = "*"
+
+[[packages]]
+name = "authselect"
+version = "*"
+
+[[packages]]
+name = "libsysfs"
+version = "*"
+
+[[packages]]
+name = "linux-firmware"
+version = "*"
+
+[[packages]]
+name = "lshw"
+version = "*"
+
+[[packages]]
+name = "microcode_ctl"
+version = "*"
+
+[[packages]]
+name = "prefixdevname"
+version = "*"
+
+[[packages]]
+name = "python3-libselinux"
+version = "*"
+
+[[packages]]
+name = "sg3_utils"
+version = "*"
+
+[[packages]]
+name = "sg3_utils-libs"
+version = "*"
+
+[[packages]]
+name = "rdma-core"
+version = "*"
+
+[[packages]]
+name = "selinux-policy-mls"
+version = "*"
+
+[[packages]]
+name = "subscription-manager"
+version = "*"
+
+[[packages]]
+name = "abattis-cantarell-fonts"
+version = "*"
+
+[[packages]]
+name = "dejavu-sans-fonts"
+version = "*"
+
+[[packages]]
+name = "dejavu-sans-mono-fonts"
+version = "*"
+
+[[packages]]
+name = "dejavu-serif-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-emoji-color-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-cjk-ttc-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-gurmukhi-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-sinhala-vf-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-serif-cjk-ttc-fonts"
+version = "*"
+
+[[packages]]
+name = "jomolhari-fonts"
+version = "*"
+
+[[packages]]
+name = "julietaula-montserrat-fonts"
+version = "*"
+
+[[packages]]
+name = "khmer-os-system-fonts"
+version = "*"
+
+[[packages]]
+name = "liberation-mono-fonts"
+version = "*"
+
+[[packages]]
+name = "liberation-sans-fonts"
+version = "*"
+
+[[packages]]
+name = "liberation-serif-fonts"
+version = "*"
+
+[[packages]]
+name = "lohit-assamese-fonts"
+version = "*"
+
+[[packages]]
+name = "lohit-bengali-fonts"
+version = "*"
+
+[[packages]]
+name = "lohit-devanagari-fonts"
+version = "*"
+
+[[packages]]
+name = "lohit-gujarati-fonts"
+version = "*"
+
+[[packages]]
+name = "lohit-kannada-fonts"
+version = "*"
+
+[[packages]]
+name = "lohit-odia-fonts"
+version = "*"
+
+[[packages]]
+name = "lohit-tamil-fonts"
+version = "*"
+
+[[packages]]
+name = "lohit-telugu-fonts"
+version = "*"
+
+[[packages]]
+name = "paktype-naskh-basic-fonts"
+version = "*"
+
+[[packages]]
+name = "pt-sans-fonts"
+version = "*"
+
+[[packages]]
+name = "sil-abyssinica-fonts"
+version = "*"
+
+[[packages]]
+name = "sil-nuosu-fonts"
+version = "*"
+
+[[packages]]
+name = "sil-padauk-fonts"
+version = "*"
+
+[[packages]]
+name = "smc-meera-fonts"
+version = "*"
+
+[[packages]]
+name = "stix-fonts"
+version = "*"
+
+[[packages]]
+name = "thai-scalable-waree-fonts"
+version = "*"
+
+[[packages]]
+name = "fontawesome-fonts"
+version = "*"
+
+[[packages]]
+name = "google-droid-sans-fonts"
+version = "*"
+
+[[packages]]
+name = "google-droid-sans-mono-fonts"
+version = "*"
+
+[[packages]]
+name = "google-droid-serif-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-armenian-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-avestan-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-bengali-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-bengali-ui-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-brahmi-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-carian-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-cherokee-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-coptic-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-deseret-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-devanagari-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-devanagari-ui-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-egyptian-hieroglyphs-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-ethiopic-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-georgian-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-glagolitic-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-gujarati-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-gujarati-ui-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-hebrew-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-imperial-aramaic-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-kaithi-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-kannada-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-kannada-ui-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-kayah-li-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-kharoshthi-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-khmer-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-khmer-ui-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-lao-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-lao-ui-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-lycian-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-lydian-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-malayalam-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-malayalam-ui-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-nko-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-old-south-arabian-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-old-turkic-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-osmanya-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-phoenician-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-shavian-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-sinhala-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-symbols-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-tamil-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-tamil-ui-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-telugu-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-telugu-ui-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-thaana-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-thai-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-thai-ui-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-ugaritic-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-sans-vai-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-serif-armenian-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-serif-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-serif-georgian-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-serif-khmer-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-serif-lao-fonts"
+version = "*"
+
+[[packages]]
+name = "google-noto-serif-thai-fonts"
+version = "*"
+
+[[packages]]
+name = "gubbi-fonts"
+version = "*"
+
+[[packages]]
+name = "kacst-art-fonts"
+version = "*"
+
+[[packages]]
+name = "kacst-book-fonts"
+version = "*"
+
+[[packages]]
+name = "kacst-decorative-fonts"
+version = "*"
+
+[[packages]]
+name = "kacst-digital-fonts"
+version = "*"
+
+[[packages]]
+name = "kacst-farsi-fonts"
+version = "*"
+
+[[packages]]
+name = "kacst-letter-fonts"
+version = "*"
+
+[[packages]]
+name = "kacst-naskh-fonts"
+version = "*"
+
+[[packages]]
+name = "kacst-office-fonts"
+version = "*"
+
+[[packages]]
+name = "kacst-one-fonts"
+version = "*"
+
+[[packages]]
+name = "kacst-pen-fonts"
+version = "*"
+
+[[packages]]
+name = "kacst-poster-fonts"
+version = "*"
+
+[[packages]]
+name = "kacst-qurn-fonts"
+version = "*"
+
+[[packages]]
+name = "kacst-screen-fonts"
+version = "*"
+
+[[packages]]
+name = "kacst-title-fonts"
+version = "*"
+
+[[packages]]
+name = "kacst-titlel-fonts"
+version = "*"
+
+[[packages]]
+name = "khmer-os-battambang-fonts"
+version = "*"
+
+[[packages]]
+name = "khmer-os-bokor-fonts"
+version = "*"
+
+[[packages]]
+name = "khmer-os-content-fonts"
+version = "*"
+
+[[packages]]
+name = "khmer-os-fasthand-fonts"
+version = "*"
+
+[[packages]]
+name = "khmer-os-freehand-fonts"
+version = "*"
+
+[[packages]]
+name = "khmer-os-handwritten-fonts"
+version = "*"
+
+[[packages]]
+name = "khmer-os-metal-chrieng-fonts"
+version = "*"
+
+[[packages]]
+name = "khmer-os-muol-fonts-all"
+version = "*"
+
+[[packages]]
+name = "khmer-os-siemreap-fonts"
+version = "*"
+
+[[packages]]
+name = "lato-fonts"
+version = "*"
+
+[[packages]]
+name = "lohit-gurmukhi-fonts"
+version = "*"
+
+[[packages]]
+name = "lohit-marathi-fonts"
+version = "*"
+
+[[packages]]
+name = "madan-fonts"
+version = "*"
+
+[[packages]]
+name = "navilu-fonts"
+version = "*"
+
+[[packages]]
+name = "open-sans-fonts"
+version = "*"
+
+[[packages]]
+name = "overpass-fonts"
+version = "*"
+
+[[packages]]
+name = "paktype-naqsh-fonts"
+version = "*"
+
+[[packages]]
+name = "paktype-tehreer-fonts"
+version = "*"
+
+[[packages]]
+name = "paratype-pt-sans-caption-fonts"
+version = "*"
+
+[[packages]]
+name = "saab-fonts"
+version = "*"
+
+[[packages]]
+name = "sil-scheherazade-fonts"
+version = "*"
+
+[[packages]]
+name = "smc-rachana-fonts"
+version = "*"
+
+[[packages]]
+name = "thai-scalable-garuda-fonts"
+version = "*"
+
+[[packages]]
+name = "thai-scalable-kinnari-fonts"
+version = "*"
+
+[[packages]]
+name = "thai-scalable-loma-fonts"
+version = "*"
+
+[[packages]]
+name = "thai-scalable-norasi-fonts"
+version = "*"
+
+[[packages]]
+name = "thai-scalable-purisa-fonts"
+version = "*"
+
+[[packages]]
+name = "thai-scalable-sawasdee-fonts"
+version = "*"
+
+[[packages]]
+name = "thai-scalable-tlwgmono-fonts"
+version = "*"
+
+[[packages]]
+name = "thai-scalable-tlwgtypewriter-fonts"
+version = "*"
+
+[[packages]]
+name = "thai-scalable-tlwgtypist-fonts"
+version = "*"
+
+[[packages]]
+name = "thai-scalable-tlwgtypo-fonts"
+version = "*"
+
+[[packages]]
+name = "thai-scalable-umpush-fonts"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-fonts-100dpi"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-fonts-75dpi"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-fonts-ISO8859-1-100dpi"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-fonts-ISO8859-1-75dpi"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-fonts-ISO8859-14-100dpi"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-fonts-ISO8859-14-75dpi"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-fonts-ISO8859-15-100dpi"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-fonts-ISO8859-15-75dpi"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-fonts-ISO8859-2-100dpi"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-fonts-ISO8859-2-75dpi"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-fonts-ISO8859-9-100dpi"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-fonts-ISO8859-9-75dpi"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-fonts-Type1"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-fonts-cyrillic"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-fonts-ethiopic"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-fonts-misc"
+version = "*"
+
+[[packages]]
+name = "ModemManager"
+version = "*"
+
+[[packages]]
+name = "NetworkManager-adsl"
+version = "*"
+
+[[packages]]
+name = "at-spi2-atk"
+version = "*"
+
+[[packages]]
+name = "at-spi2-core"
+version = "*"
+
+[[packages]]
+name = "avahi"
+version = "*"
+
+[[packages]]
+name = "baobab"
+version = "*"
+
+[[packages]]
+name = "cheese"
+version = "*"
+
+[[packages]]
+name = "chrome-gnome-shell"
+version = "*"
+
+[[packages]]
+name = "dconf"
+version = "*"
+
+[[packages]]
+name = "eog"
+version = "*"
+
+[[packages]]
+name = "evince"
+version = "*"
+
+[[packages]]
+name = "evince-nautilus"
+version = "*"
+
+[[packages]]
+name = "fprintd-pam"
+version = "*"
+
+[[packages]]
+name = "gdm"
+version = "*"
+
+[[packages]]
+name = "gedit"
+version = "*"
+
+[[packages]]
+name = "glib-networking"
+version = "*"
+
+[[packages]]
+name = "glibc-all-langpacks"
+version = "*"
+
+[[packages]]
+name = "gnome-bluetooth"
+version = "*"
+
+[[packages]]
+name = "gnome-calculator"
+version = "*"
+
+[[packages]]
+name = "gnome-characters"
+version = "*"
+
+[[packages]]
+name = "gnome-classic-session"
+version = "*"
+
+[[packages]]
+name = "gnome-color-manager"
+version = "*"
+
+[[packages]]
+name = "gnome-control-center"
+version = "*"
+
+[[packages]]
+name = "gnome-disk-utility"
+version = "*"
+
+[[packages]]
+name = "gnome-font-viewer"
+version = "*"
+
+[[packages]]
+name = "gnome-initial-setup"
+version = "*"
+
+[[packages]]
+name = "gnome-logs"
+version = "*"
+
+[[packages]]
+name = "gnome-remote-desktop"
+version = "*"
+
+[[packages]]
+name = "gnome-screenshot"
+version = "*"
+
+[[packages]]
+name = "gnome-session-wayland-session"
+version = "*"
+
+[[packages]]
+name = "gnome-session-xsession"
+version = "*"
+
+[[packages]]
+name = "gnome-settings-daemon"
+version = "*"
+
+[[packages]]
+name = "gnome-shell"
+version = "*"
+
+[[packages]]
+name = "gnome-shell-extension-background-logo"
+version = "*"
+
+[[packages]]
+name = "gnome-software"
+version = "*"
+
+[[packages]]
+name = "gnome-system-monitor"
+version = "*"
+
+[[packages]]
+name = "gnome-terminal"
+version = "*"
+
+[[packages]]
+name = "gnome-terminal-nautilus"
+version = "*"
+
+[[packages]]
+name = "gnome-user-docs"
+version = "*"
+
+[[packages]]
+name = "gvfs-fuse"
+version = "*"
+
+[[packages]]
+name = "gvfs-goa"
+version = "*"
+
+[[packages]]
+name = "gvfs-gphoto2"
+version = "*"
+
+[[packages]]
+name = "gvfs-mtp"
+version = "*"
+
+[[packages]]
+name = "gvfs-smb"
+version = "*"
+
+[[packages]]
+name = "libcanberra-gtk3"
+version = "*"
+
+[[packages]]
+name = "librsvg2"
+version = "*"
+
+[[packages]]
+name = "libsane-hpaio"
+version = "*"
+
+[[packages]]
+name = "mesa-dri-drivers"
+version = "*"
+
+[[packages]]
+name = "nautilus"
+version = "*"
+
+[[packages]]
+name = "orca"
+version = "*"
+
+[[packages]]
+name = "sane-backends-drivers-scanners"
+version = "*"
+
+[[packages]]
+name = "sushi"
+version = "*"
+
+[[packages]]
+name = "totem"
+version = "*"
+
+[[packages]]
+name = "tracker"
+version = "*"
+
+[[packages]]
+name = "tracker-miners"
+version = "*"
+
+[[packages]]
+name = "xdg-desktop-portal"
+version = "*"
+
+[[packages]]
+name = "xdg-desktop-portal-gtk"
+version = "*"
+
+[[packages]]
+name = "xdg-user-dirs-gtk"
+version = "*"
+
+[[packages]]
+name = "yelp"
+version = "*"
+
+[[packages]]
+name = "yelp-tools"
+version = "*"
+
+[[packages]]
+name = "gedit-plugins"
+version = "*"
+
+[[packages]]
+name = "gnome-backgrounds"
+version = "*"
+
+[[packages]]
+name = "gnome-shell-extension-apps-menu"
+version = "*"
+
+[[packages]]
+name = "gnome-shell-extension-auto-move-windows"
+version = "*"
+
+[[packages]]
+name = "gnome-shell-extension-dash-to-dock"
+version = "*"
+
+[[packages]]
+name = "gnome-shell-extension-desktop-icons"
+version = "*"
+
+[[packages]]
+name = "gnome-shell-extension-drive-menu"
+version = "*"
+
+[[packages]]
+name = "gnome-shell-extension-launch-new-instance"
+version = "*"
+
+[[packages]]
+name = "gnome-shell-extension-native-window-placement"
+version = "*"
+
+[[packages]]
+name = "gnome-shell-extension-places-menu"
+version = "*"
+
+[[packages]]
+name = "gnome-shell-extension-screenshot-window-sizer"
+version = "*"
+
+[[packages]]
+name = "gnome-shell-extension-user-theme"
+version = "*"
+
+[[packages]]
+name = "gnome-shell-extension-window-list"
+version = "*"
+
+[[packages]]
+name = "gnome-shell-extension-windowsNavigator"
+version = "*"
+
+[[packages]]
+name = "gnome-shell-extension-workspace-indicator"
+version = "*"
+
+[[packages]]
+name = "initial-setup-gui"
+version = "*"
+
+[[packages]]
+name = "hyperv-daemons"
+version = "*"
+
+[[packages]]
+name = "open-vm-tools-desktop"
+version = "*"
+
+[[packages]]
+name = "qemu-guest-agent"
+version = "*"
+
+[[packages]]
+name = "spice-vdagent"
+version = "*"
+
+[[packages]]
+name = "rasdaemon"
+version = "*"
+
+[[packages]]
+name = "smartmontools"
+version = "*"
+
+[[packages]]
+name = "intel-cmt-cat"
+version = "*"
+
+[[packages]]
+name = "lm_sensors"
+version = "*"
+
+[[packages]]
+name = "bolt"
+version = "*"
+
+[[packages]]
+name = "iwl100-firmware"
+version = "*"
+
+[[packages]]
+name = "iwl1000-firmware"
+version = "*"
+
+[[packages]]
+name = "iwl105-firmware"
+version = "*"
+
+[[packages]]
+name = "iwl135-firmware"
+version = "*"
+
+[[packages]]
+name = "iwl2000-firmware"
+version = "*"
+
+[[packages]]
+name = "iwl2030-firmware"
+version = "*"
+
+[[packages]]
+name = "iwl3160-firmware"
+version = "*"
+
+[[packages]]
+name = "iwl5000-firmware"
+version = "*"
+
+[[packages]]
+name = "iwl5150-firmware"
+version = "*"
+
+[[packages]]
+name = "iwl6000g2a-firmware"
+version = "*"
+
+[[packages]]
+name = "iwl6000g2b-firmware"
+version = "*"
+
+[[packages]]
+name = "iwl6050-firmware"
+version = "*"
+
+[[packages]]
+name = "iwl7260-firmware"
+version = "*"
+
+[[packages]]
+name = "libertas-sd8787-firmware"
+version = "*"
+
+[[packages]]
+name = "usb_modeswitch"
+version = "*"
+
+[[packages]]
+name = "lsscsi"
+version = "*"
+
+[[packages]]
+name = "opensc"
+version = "*"
+
+[[packages]]
+name = "openssl-pkcs11"
+version = "*"
+
+[[packages]]
+name = "pcsc-lite"
+version = "*"
+
+[[packages]]
+name = "pcsc-lite-ccid"
+version = "*"
+
+[[packages]]
+name = "cockpit-bridge"
+version = "*"
+
+[[packages]]
+name = "cockpit-packagekit"
+version = "*"
+
+[[packages]]
+name = "cockpit-podman"
+version = "*"
+
+[[packages]]
+name = "cockpit-storaged"
+version = "*"
+
+[[packages]]
+name = "cockpit-system"
+version = "*"
+
+[[packages]]
+name = "cockpit-ws"
+version = "*"
+
+[[packages]]
+name = "openssh-server"
+version = "*"
+
+[[packages]]
+name = "sscg"
+version = "*"
+
+[[packages]]
+name = "firefox"
+version = "*"
+
+[[packages]]
+name = "alsa-ucm"
+version = "*"
+
+[[packages]]
+name = "alsa-utils"
+version = "*"
+
+[[packages]]
+name = "gstreamer1-plugins-bad-free"
+version = "*"
+
+[[packages]]
+name = "gstreamer1-plugins-good"
+version = "*"
+
+[[packages]]
+name = "gstreamer1-plugins-ugly-free"
+version = "*"
+
+[[packages]]
+name = "pipewire"
+version = "*"
+
+[[packages]]
+name = "pipewire-alsa"
+version = "*"
+
+[[packages]]
+name = "pipewire-gstreamer"
+version = "*"
+
+[[packages]]
+name = "pipewire-jack-audio-connection-kit"
+version = "*"
+
+[[packages]]
+name = "pipewire-pulseaudio"
+version = "*"
+
+[[packages]]
+name = "pipewire-utils"
+version = "*"
+
+[[packages]]
+name = "pavucontrol"
+version = "*"
+
+[[packages]]
+name = "cups"
+version = "*"
+
+[[packages]]
+name = "cups-pk-helper"
+version = "*"
+
+[[packages]]
+name = "enscript"
+version = "*"
+
+[[packages]]
+name = "colord"
+version = "*"
+
+[[packages]]
+name = "gutenprint"
+version = "*"
+
+[[packages]]
+name = "gutenprint-cups"
+version = "*"
+
+[[packages]]
+name = "gutenprint-doc"
+version = "*"
+
+[[packages]]
+name = "paps"
+version = "*"
+
+[[packages]]
+name = "pnm2ppa"
+version = "*"
+
+[[packages]]
+name = "system-config-printer-udev"
+version = "*"
+
+[[packages]]
+name = "bluez-cups"
+version = "*"
+
+[[packages]]
+name = "hplip"
+version = "*"
+
+[[packages]]
+name = "polkit"
+version = "*"
+
+[[packages]]
+name = "NetworkManager-config-server"
+version = "*"
+
+[[packages]]
+name = "NetworkManager-team"
+version = "*"
+
+[[packages]]
+name = "acl"
+version = "*"
+
+[[packages]]
+name = "at"
+version = "*"
+
+[[packages]]
+name = "attr"
+version = "*"
+
+[[packages]]
+name = "bc"
+version = "*"
+
+[[packages]]
+name = "cpio"
+version = "*"
+
+[[packages]]
+name = "crontabs"
+version = "*"
+
+[[packages]]
+name = "cyrus-sasl-plain"
+version = "*"
+
+[[packages]]
+name = "ed"
+version = "*"
+
+[[packages]]
+name = "file"
+version = "*"
+
+[[packages]]
+name = "irqbalance"
+version = "*"
+
+[[packages]]
+name = "lsof"
+version = "*"
+
+[[packages]]
+name = "mcelog"
+version = "*"
+
+[[packages]]
+name = "net-tools"
+version = "*"
+
+[[packages]]
+name = "pciutils"
+version = "*"
+
+[[packages]]
+name = "psacct"
+version = "*"
+
+[[packages]]
+name = "quota"
+version = "*"
+
+[[packages]]
+name = "redhat-release"
+version = "*"
+
+[[packages]]
+name = "redhat-release-eula"
+version = "*"
+
+[[packages]]
+name = "rsyslog-gnutls"
+version = "*"
+
+[[packages]]
+name = "rsyslog-gssapi"
+version = "*"
+
+[[packages]]
+name = "rsyslog-relp"
+version = "*"
+
+[[packages]]
+name = "sudo"
+version = "*"
+
+[[packages]]
+name = "symlinks"
+version = "*"
+
+[[packages]]
+name = "tar"
+version = "*"
+
+[[packages]]
+name = "tree"
+version = "*"
+
+[[packages]]
+name = "tuned"
+version = "*"
+
+[[packages]]
+name = "util-linux-user"
+version = "*"
+
+[[packages]]
+name = "bash-completion"
+version = "*"
+
+[[packages]]
+name = "blktrace"
+version = "*"
+
+[[packages]]
+name = "bluez"
+version = "*"
+
+[[packages]]
+name = "bpftool"
+version = "*"
+
+[[packages]]
+name = "bzip2"
+version = "*"
+
+[[packages]]
+name = "chrony"
+version = "*"
+
+[[packages]]
+name = "cockpit"
+version = "*"
+
+[[packages]]
+name = "cryptsetup"
+version = "*"
+
+[[packages]]
+name = "dos2unix"
+version = "*"
+
+[[packages]]
+name = "dosfstools"
+version = "*"
+
+[[packages]]
+name = "ethtool"
+version = "*"
+
+[[packages]]
+name = "gnupg2"
+version = "*"
+
+[[packages]]
+name = "insights-client"
+version = "*"
+
+[[packages]]
+name = "iprutils"
+version = "*"
+
+[[packages]]
+name = "ledmon"
+version = "*"
+
+[[packages]]
+name = "libstoragemgmt"
+version = "*"
+
+[[packages]]
+name = "lvm2"
+version = "*"
+
+[[packages]]
+name = "mailcap"
+version = "*"
+
+[[packages]]
+name = "man-pages"
+version = "*"
+
+[[packages]]
+name = "mdadm"
+version = "*"
+
+[[packages]]
+name = "mlocate"
+version = "*"
+
+[[packages]]
+name = "mtr"
+version = "*"
+
+[[packages]]
+name = "nano"
+version = "*"
+
+[[packages]]
+name = "nmap-ncat"
+version = "*"
+
+[[packages]]
+name = "nvme-cli"
+version = "*"
+
+[[packages]]
+name = "pinfo"
+version = "*"
+
+[[packages]]
+name = "realmd"
+version = "*"
+
+[[packages]]
+name = "rhc"
+version = "*"
+
+[[packages]]
+name = "rsync"
+version = "*"
+
+[[packages]]
+name = "sos"
+version = "*"
+
+[[packages]]
+name = "strace"
+version = "*"
+
+[[packages]]
+name = "tcpdump"
+version = "*"
+
+[[packages]]
+name = "time"
+version = "*"
+
+[[packages]]
+name = "unzip"
+version = "*"
+
+[[packages]]
+name = "usbutils"
+version = "*"
+
+[[packages]]
+name = "virt-what"
+version = "*"
+
+[[packages]]
+name = "wget"
+version = "*"
+
+[[packages]]
+name = "which"
+version = "*"
+
+[[packages]]
+name = "words"
+version = "*"
+
+[[packages]]
+name = "xfsdump"
+version = "*"
+
+[[packages]]
+name = "zip"
+version = "*"
+
+[[packages]]
+name = "cifs-utils"
+version = "*"
+
+[[packages]]
+name = "cockpit-doc"
+version = "*"
+
+[[packages]]
+name = "fwupd"
+version = "*"
+
+[[packages]]
+name = "ima-evm-utils"
+version = "*"
+
+[[packages]]
+name = "nfs-utils"
+version = "*"
+
+[[packages]]
+name = "nvmetcli"
+version = "*"
+
+[[packages]]
+name = "traceroute"
+version = "*"
+
+[[packages]]
+name = "zsh"
+version = "*"
+
+[[packages]]
+name = "subscription-manager-cockpit"
+version = "*"
+
+[[packages]]
+name = "glx-utils"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-drv-evdev"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-drv-fbdev"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-drv-libinput"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-drv-vmware"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-drv-wacom"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-server-Xorg"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-utils"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-xauth"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-xinit"
+version = "*"
+
+[[packages]]
+name = "xorg-x11-xinit-session"
+version = "*"
+
+[[packages]]
+name = "htop"
+version = "*"
+
+[customizations]
+
+[[customizations.user]]
+name = "edge-user"
+description = "Your Name Here"
+password = "put-in-a-good-password"
+groups = ["wheel"]
